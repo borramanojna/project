@@ -8,21 +8,25 @@ https://drive.google.com/file/d/1wbXP1GTHmlHOJXZS3pOTL88M_D5AIaUY/view?usp=drive
 
 ## Cost and Features
 
--- 
+--the project is a low cost system . less complexity increases the
+scope of developing the features.
 ## Defining Our System
     -- TBD
 ## SWOT ANALYSIS
-![SWOT-Sample](Link to Pic)
+strengths: simple mechanism to book tickets
+weakness:only one ticket can be booked at a time
+opportunities:les complexity enables more features to be added
+threat:not analyzed yet
 
 # 4W&#39;s and 1&#39;H
 
 ## Who:
 
-**TBD**
+the interface enables both users as well as the admin to perform actions
 
 ## What:
 
-**TBD**
+tickets can be booked and the admin has control over the bookings made
 
 ## When:
 
@@ -38,10 +42,9 @@ https://drive.google.com/file/d/1wbXP1GTHmlHOJXZS3pOTL88M_D5AIaUY/view?usp=drive
 
 # Detail requirements
 ## High Level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+--- password verification for admin access 
+-- disabling multiple bookings for same seat
 
 
 ##  Low level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+--- generating ticket with contact information and seat number
