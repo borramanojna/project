@@ -1,13 +1,14 @@
 # Requirements
 ## Introduction
- --- TBD 
+ -- Movie ticketing system is designed to enable the viewers to book tickets for the movie they wish to watch online
+ also the system enables the admin to view all the bookings till date
 
 ## Research
-![Description](Link to Pic)
--- Content 
+https://drive.google.com/file/d/1wbXP1GTHmlHOJXZS3pOTL88M_D5AIaUY/view?usp=drivesdk
+
 ## Cost and Features
-![Description](Link to Pic)
--- Content 
+
+-- 
 ## Defining Our System
     -- TBD
 ## SWOT ANALYSIS
