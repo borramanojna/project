@@ -1,2 +1,3 @@
 # project
-first project
+Movie ticket booking system
+
