@@ -2,3 +2,20 @@
 # project
 Movie ticket booking system
 
+|contribution check|
+--------------------
+|                  |
+
+
+
+|unity|
+-------
+|   [![Unit Testing](https://github.com/borramanojna/project/actions/workflows/unit-test.yml/badge.svg)](https://github.com/borramanojna/project/actions/workflows/unit-test.yml)  |
+
+|code quality|
+--------------
+|            |
+
+|git inspector|
+---------------
+|             |
