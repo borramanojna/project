@@ -14,7 +14,7 @@ Movie ticket booking system
 
 |code quality|
 --------------
-|            |
+|      [![C/C++ CI - Build Status](https://github.com/borramanojna/project/actions/workflows/c-build.yml/badge.svg)](https://github.com/borramanojna/project/actions/workflows/c-build.yml)      |
 
 |git inspector|
 ---------------
