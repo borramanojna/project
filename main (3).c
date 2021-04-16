@@ -61,7 +61,7 @@ int main()
 				break;
 		}
 	}
-	free();}
+	free(seat);}
 
  
 
