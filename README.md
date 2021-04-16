@@ -18,4 +18,4 @@ Movie ticket booking system
 
 |git inspector|
 ---------------
-|             |
+|        [![cppcheck-action](https://github.com/borramanojna/project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/borramanojna/project/actions/workflows/cppcheck.yml)     |
