@@ -4,7 +4,7 @@ Movie ticket booking system
 
 |contribution check|
 --------------------
-|                  |
+|           [![cppcheck-action](https://github.com/borramanojna/project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/borramanojna/project/actions/workflows/cppcheck.yml)       |
 
 
 
