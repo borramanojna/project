@@ -10,11 +10,11 @@ src/functions.c\
 
 
 # All test source files
-TEST_SRC = src/testt.c\
+TEST_SRC = test/testt.c\
 unity/unity.c\
 src/functions.c\
 
-TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).$(EXE)
+TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).exe
 
 # All include folders with header files
 INC	= -Iinc\
@@ -38,27 +38,18 @@ $(PROJECT_NAME):all
 .PHONY: run clean test doc all
 
 all: $(SRC) $(BUILD)
-	gcc $(INC) $(SRC) -o $(PROJECT_OUTPUT).$(EXE)
+	gcc $(INC) $(SRC) -o $(PROJECT_OUTPUT).exe
 
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
-	./$(PROJECT_OUTPUT).$(EXE)
+	./$(PROJECT_OUTPUT).exe
 
 # Document the code using Doxygen
-#doc:
-#	make -C ./documentation
+doc:
+	make -C ./documentation
 
 # Build and run the unit tests
-ifdef OS
-  DEL = del/q
-    EXE = exe
- else
-   ifeq ($(shell uname), Linux)
-   DEL=rm -rf
-    EXE=out
-    
-    endif
-    endif
+
 test:$(BUILD)
 	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT)
 	./$(TEST_OUTPUT)
