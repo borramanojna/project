@@ -13,10 +13,14 @@ scope of developing the features.
 ## Defining Our System
     -- TBD
 ## SWOT ANALYSIS
---strengths: simple mechanism to book tickets
---weakness:only one ticket can be booked at a time
---opportunities:less complexity enables more features to be added
---threat:not analyzed yet
+|strengths    | simple mechanism to book tickets                |
+----------------------------------------------
+|weakness     |only one ticket can be booked at a time          |
+---------------------------------------------------
+|opportunities|less complexity enables more features to be added|
+-----------------------------------------------------------------
+|threat       |not analyzed yet                                 |
+-----------------------------------------------------------------
 
 # 4W&#39;s and 1&#39;H
 
